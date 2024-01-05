@@ -1,0 +1,41 @@
+.stuffBox{
+	margin: 50px auto auto 70px;
+}
+
+.colLeft, .colRight{
+	margin-top: 15px;
+	padding: 20px;
+	background-color: #f4f4f4;
+}
+
+.colLeft{
+	
+	float: left;
+	width: 400px;
+	height: 400px;
+}
+
+.colRight{
+	float: left;
+	left: 150px;
+	width:400px;
+	height: 400px;
+	
+}
+
+.data{
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.data>img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 15px;
+}
+
+.data b:hover{
+	cursor: pointer;
+	
+}

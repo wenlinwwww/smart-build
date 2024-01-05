@@ -1,0 +1,139 @@
+figure{
+	height: 115px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: none;
+}
+
+.quesBoard{
+	position: relative;
+    padding: 1em;
+	width: 700px;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-right: 40px;
+    margin-top: 40px;
+	margin-bottom: 50px;
+    border-radius: 0.7em;
+    background-image: linear-gradient(to top, rgb(92, 198, 250),rgb(228, 224, 224));
+    float: left;
+    background-color: white;
+	
+}
+
+.quesBoard p{
+  position: relative;
+  margin-right: 50px;
+  left: 30px;
+}
+
+.person{
+	float: left;
+	margin-left: 30px;
+  margin-bottom: 40px;
+  border-radius: 1em;
+}
+
+.side-image{
+  float: right;
+  margin-right: 30px;
+  margin-top: 0px;
+  cursor:pointer;
+  
+}
+
+.MenuPanel
+{
+	margin-top: 30px;
+    padding-bottom:0px;
+}
+.MenuTitle
+{
+    padding-left:10px;
+    padding-top:0px;
+    border-bottom: 1px solid #8a8a8a;
+    display: block;
+    	
+    width: 100%;
+}
+.MenuContent
+{
+    
+    font-size:16px;
+    padding:20px 40px 20px 40px;
+    /* border:#ffbc66 1px solid; */
+	background-color:rgba(255, 255, 255, 0.3);
+    display: block;
+    width: 100%;
+	border-bottom-left-radius: 0.7em;
+	border-bottom-right-radius: 0.7em;
+	
+}
+
+.MenuContent form{
+	margin-top: 30px;
+}
+
+.MenuContent textarea{
+	margin-top: 10px;
+	opacity: 0.5;
+	
+	width: 100%;
+}
+
+.MenuContent img{
+	margin-left: 40px;
+	width: 35px;
+	height: 35px;
+	border-radius: 0.7em;
+	float: left;
+}
+
+.MenuContent .response{
+	margin: 0 30px 0 30px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: white 1px solid;
+}
+
+.MenuContent .submit{
+	
+	
+}
+
+.postQ{
+	float: left;
+	width: 400px;
+	
+	margin-left: 30px;
+	background-color: #ececec;
+	
+	margin-top: 40px;
+	padding: 20px;
+	
+}
+
+.postQ form{
+	
+}
+
+.postQ #pTitle{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+.postQ #newSub{
+	width: 100%;
+	margin-top: 20px;
+
+}
+
+.postQ textarea{
+	width: 100%;
+	
+}
+
+
+

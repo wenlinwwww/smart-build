@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/analytics.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <title>Course3801-SmartED Analytics</title>
+</head>
+<body>
+<box>
+    <nav>
+        <a href="./index.html" target="_self"><img id="logo" src="./images/SmartED.png" width="200px" height="46px"></a>
+        <select>
+            <option value ="DECO3801">DECO3801</option>
+            <option value ="COMP3301">COMP3301</option>
+            <option value="COMP3506">COMP3506</option>
+            <option value="DECO2800">DECO2800</option>
+        </select>
+        <ul>
+            <li><img src="./images/dashboard-icon.png"><a href="./Student-Dashboard.html" target="_self">Dashboard</a></li>
+            <li><img src="./images/course-icon.png"><a href="./Student-Course.html" target="_self">Course</a></li>
+            <li><img src="./images/discussion-icon.png"><a href="./Student-Discussion.html" target="_self">Discussion</a></li>
+            <li><img src="./images/analytics-icon.png"><a href="./Student-Analytics.html" target="_self"><span style="color:white;">Analytics</span></a></li>
+            <li><img src="./images/setting-icon.png"><a href="./Student-Setting.html" target="_self">Setting</a></li>
+        </ul>
+    </nav>
+
+    <div id="stat-bar">
+        <input id="searchbox" placeholder="Search for courses, help etc...">
+        <button id="sb" type="submit">Search</button>
+
+        <a href="./Student_profile.html">Hi, Andy!<img src="./images/profile.png" width="40px" height="40px"></a>
+    </div>
+
+    
+
+<!--      Content       -->
+<div id="content">
+    
+    <div class="flex-container">
+        <div class="flex-item1 infoBox">Average Grade<br><span style="color:blue">6</span><br><span style="color:red"> +1.2%</span></div>
+        <div class="flex-item2 infoBox">Current Course/tutor statisfaction<br><span style="color:blue">89%/95%</span><br><span style="color:red"> +0.5%</span></div>
+        <div class="flex-item3 infoBox">Course student Rank<br><span style="color:blue">18th</span><br><span style="color:red"> -1 place</span></div>  
+    </div>
+
+    <div class="flex-video infoBox">
+        <div><h4><b>For you:</b></h4></div>
+        <div class="first video">You seemd to perform lower in<span style="color:purple"> Topic 4: Key Design Concepts</span>, you can watch this sectionof the<span style="color:purple"> Lecture 4 </span>to gain a better understanding:
+            <video src="https://learn.uq.edu.au/bbcswebdav/pid-5666891-dt-content-rid-29344426_1/courses/DECO3801S_7060_63091/Studio3-2.mp4" controls
+            width="300" height="150"></video>
+            <div class ="video-words"><span style="color:purple">Watch 43:10-49:30 of Lecture 4</span></div>
+            <p>The<span style="color:purple"> Lecture </span> has posted a new document: <span style="color:purple"> How to Write Your Interim Critique 80% of students </span>have <span style="color:purple">found this helpful</span> so far!</p>
+            <video src="https://learn.uq.edu.au/bbcswebdav/pid-5666891-dt-content-rid-29344426_1/courses/DECO3801S_7060_63091/Studio3-2.mp4" controls 
+            width="300" height="150"></video>
+            <div class="video-words"><span style="color:purple">Open How to Write Your Interim Critique</span></div>
+            
+        </div>
+
+    </div>
+
+    <div class="column-container" >
+        <div class="column-item-1 infoBox"><h6><b>Key Insight Report</b></h6><br><span style="color:purple"> You and 71 others </span>have attended<span style="color:purple"> all the tutorials </span><br>You need<span style="color:purple"> 80% on the Interim Critique </span>to get grade of 7
+			<br><div class="see-full"><p><a href="#"><span style="color:purple">See full report</span></a></p></div>
+        </div>
+        
+        <div class="column-item-2 infoBox"><h6><b>Actionable Insights</b></h6><p>The <span style="color:purple">week 7 personalised lecture</span> is ready to be viewed</p> <p><a href="#"><span style="color:purple">Watch personalised lecture</span></a></p>
+			<div><p>Your next assessment is <span style="color:purple">Interim Critique</span> due at <span style="color:purple">10am Friday 22/5/20</span></p> <p><a href="#"><span style="color:purple">Submit assessment</span></p></div>
+            <div><p style="color:purple">There is <span style="color:purple">1 new message</span> from the <span style="color:purple">lecture</span></p> <p><a href="#"><span style="color:purple">Open message</span></p></div>
+            <div class="see-full"><a href="#"><span style="color:purple">See full report</span></a></div>
+        
+		</div>
+		
+        <div class="column-item-3 infoBox"><h6><b>Suggestions</b></h6><br>If you have some advice, please write in<a href="#"><span style="color:blue"> here</span></a></div>  
+    </div>
+
+</div>
+<!--    End Content     -->
+
+
+</box>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Bootstrap JS -->
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

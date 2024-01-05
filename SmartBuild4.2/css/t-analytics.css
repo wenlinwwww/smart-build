@@ -1,0 +1,53 @@
+.left{
+	margin-top: 30px;
+	margin-left: 40px;
+	padding: 20px;
+	width: 700px;
+	border-radius: 0.7em;
+	float: left;
+	background-color: #f6edf9;
+
+}
+
+.left table{
+	width: 100%;
+	
+}
+
+.left table td, .left table th{
+    font-size: 1.1em;
+    padding: 1em;
+    background-color: #f6edf9;
+    height: 80px;
+}
+
+.left table td{
+	font-size: 1em;
+    border-top: 2px solid #88888a;
+	
+}
+
+.right{
+	padding: 15px;
+	margin-top: 30px;
+	float: left;
+	left: 50px;
+	background-color: 	#afdaf9;
+	
+	width: 300px;
+}
+
+
+.fail, .danger{
+	padding:8px;
+	border-radius: 1em;
+	
+}
+.fail{
+	background-color: red;
+}
+
+.danger{
+	background-color: yellow;
+	
+}

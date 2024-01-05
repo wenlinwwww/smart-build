@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/discussion.css">
+	<style>
+		.quesBoard{
+			background-image: linear-gradient(to top, rgb(100, 158, 150),rgb(228, 224, 224));
+		}
+	</style>
+    <title>Course3801-Discussion Board</title>
+</head>
+<body>
+<box>
+    <nav>
+        <a href="./index.html" target="_self"><img id="logo" src="./images/SmartED.png" width="200px" height="46px"></a>
+        <select>
+            <option value ="DECO3801">DECO3801</option>
+            <option value ="COMP3301">COMP3301</option>
+            <option value="COMP3506">COMP3506</option>
+            <option value="DECO2800">DECO2800</option>
+        </select>
+        <ul>
+            <li><img src="./images/dashboard-icon.png"><a href="./Teacher-Dashboard.html" target="_self">Dashboard</a></li>
+            <li><img src="./images/course-icon.png"><a href="./Teacher-Course.html" target="_self">Course</a></li>
+            <li><img src="./images/discussion-icon.png"><a href="./Teacher-Discussion.html" target="_self"><span style="color:white;">Discussion</span></a></li>
+            <li><img src="./images/analytics-icon.png"><a href="./Teacher-Analytics.html" target="_self">Analytics</a></li>
+            <li><img src="./images/setting-icon.png"><a href="./Teacher-Setting.html" target="_self">Setting</a></li>
+        </ul>
+    </nav>
+
+    <div id="stat-bar">
+        <input id="searchbox" placeholder="Search for courses, help etc...">
+        <button id="sb" type="submit">Search</button>
+
+        <a href="./Student_profile.html">Hi, Smart Build!<img src="./images/profile.png" width="40px" height="40px"></a>
+    </div>
+
+    
+
+<!--      Content       -->
+<div id="content">
+    <div class="quesBoard infoBox" style="width:55%;">
+		<h3 style="text-align:center; margin-bottom: 30px;">Question board</h3>
+		<div class="MenuPanel">
+			<div class="MenuTitle">
+				
+					<figure>
+						<img class="person" src="./images/boy.png" width="80px"height="80px">
+						<p><a href="#" target="_self"> Assignment questions</a>
+						<br>Hi, for assignment if the support rate is 2/5 then should we write the answer as 0.4 or 40.0?
+						</p>
+
+						<img class="side-image" src="./images/comment.png" width="20px" height="20px">
+							
+					</figure>
+				
+			</div>
+			<div class="MenuContent">
+					<div class="resBox">
+						<div class="response">
+							<img src="./images/boy.png"/>
+							<p>I think 0.4 is better.</p>
+						</div>
+						<div class="response">
+							<img src="./images/girl.png"/>
+							<p>The ducument says we need to make it in integer so I prefer 40.</p>
+						</div>
+						<div class="response">
+							<img src="./images/boy.png"/>
+							<p>Either of them is fine.</p>
+						</div>
+					</div>
+					
+					<div class="formBox"></div>
+
+			</div>
+		</div>
+		<div class="MenuPanel">
+			<div class="MenuTitle">
+				
+					<figure>
+						<img class="person" src="./images/girl.png" width="80px"height="80px"> 
+						<p><a href="#" target="_self"> Can't find zoom id for today's lecture...</a>
+						<br> Where can I find it?</p>
+						
+						<img class="side-image" src="./images/comment.png" width="20px" height="20px">
+						
+					</figure>
+				
+			</div>
+			<div class="MenuContent">
+				
+
+					<div class="resBox">
+						<div class="response">
+							<img src="./images/boy.png"/>
+							<p>Go to the 'learning resources' folder, and it is under the lec zoom link.</p>
+						</div>
+						<div class="response">
+							<img src="./images/girl.png"/>
+							<p>Also you can find it in the discord your group tag.</p>
+						</div>
+						
+					</div>
+					
+					<div class="formBox"></div>
+
+				
+
+			</div>
+		</div>
+		<div class="MenuPanel">
+			<div class="MenuTitle">
+				
+					<figure>
+						<img class="person" src="./images/boy2.png" width="80px"height="80px">
+						<p><a href="#" target="_self"> Assignment Questions</a>
+						<br>Hi, Once I open the program and fix some of the issues, if I save it and it crashs.</p>
+						
+						<img class="side-image" src="./images/comment.png" width:="20px" height="20px">
+						
+					</figure>
+				
+			</div>
+			<div class="MenuContent">
+				
+					<div class="resBox">
+						<div class="response">
+							<img src="./images/girl.png"/>
+							<p>I met this bug as well.</p>
+						</div>
+						<div class="response">
+							<img src="./images/girl.png"/>
+							<p>Tutor has post a solution on the gitlab, you guys can have a look and try whether it works.</p>
+						</div>
+						<div class="response">
+							<img src="./images/boy.png"/>
+							<p>No idea what does it means.</p>
+						</div>
+					</div>
+					
+					<div class="formBox"></div>
+
+				
+
+			</div>
+		</div>
+		
+	</div>
+	
+	<div id="content-4" class="infoBox" style="padding:15px; float:left;">
+    
+	<h3>Categories</h3>
+        <hr>
+        <table id="Categories-table">
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Assignment</td>
+            <td><span>2</span></td>
+        </tr>
+
+        <tr>
+            <td>Other:</td>
+            <td><span>1</span></td>
+        </tr>
+        <tr>
+            <td>Mid-term Exam</td>
+            <td><span>0</span></td>
+        </tr>
+        <tr>
+            <td>Final Exam</td>
+            <td><span>0</span></td>
+        </tr>
+        </table>
+    </div>
+	
+	<div style="float:left; margin-left: 75px; margin-top: 100px;;"> <img src="./images/learning.png" width="200px"/><div>
+	<!--
+	<div class="postQ infoBox">
+		<h4 style="text-align:center;">Post New Question</h4>
+		<form>
+			<input id="pTitle" type="text" placeholder="Title" required="required" />
+			<textarea id="pContent" rows="8" placeholder="Type your question here..." wrap="hard" required="required"></textarea>
+			<input id="newSub" type="button" value="Submit"/>
+		</form>
+		
+	</div>
+	-->
+</div>
+<!--    End Content     -->
+
+
+</box>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Bootstrap JS -->
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script>
+$(document).ready(function(){
+	
+	// postNewClicked();
+	
+    slideUpDown();
+	
+	
+});
+
+function postNewClicked(){
+	$("#newSub").click(function(){
+		if($("#pTitle").val() == "" || $("#pContent").val() == ""){
+			alert("Please input the title & content.");
+		} else {
+			$(".quesBoard").html(
+				$(".quesBoard").html()
+				+
+				`
+					<div class="MenuPanel">
+						<div class="MenuTitle">
+							
+								<figure>
+									<img class="person" src="./images/profile.png" width="80px"height="80px">
+									<p><a href="#" target="_self">` + $("#pTitle").val() + `</a>
+									<br>` + $("#pContent").val() + `
+									</p>
+
+									<img class="side-image" src="./images/comment.png" width="20px" height="20px">
+										
+								</figure>
+							
+						</div>
+						<div class="MenuContent">
+								<div class="resBox">
+									
+								</div>
+								
+								<div class="formBox"></div>
+
+						</div>
+					</div>
+				`
+			
+			);
+			slideUpDown();
+		}
+	});
+}
+
+function slideUpDown(){
+	$(".MenuPanel").each(function(){
+		$(this).children(".MenuContent").hide();
+	});
+	
+	$(".MenuTitle").each(function(){
+		$(this).click(function(){
+
+			if($(this).parents(".MenuPanel").children(".MenuContent").css("display") != "none"){
+				$(this).parents(".MenuPanel").children(".MenuContent").slideUp();
+			}else{
+				
+				// 创建form的submit表格，如果存在就跳过
+				if($(this).parents(".MenuPanel").children(".MenuContent").children(".formBox").html() == ''){
+					$(this).parents(".MenuPanel").children(".MenuContent").children(".formBox").html(
+						`
+						<form class="resSubmit" method="get" target="iframe">
+							<textarea rows="3" placeholder="type your response here..." wrap="hard" required="required"></textarea>
+							<input type="submit" value="Submit"/>
+						</form>
+						<iframe id="iframe" name="iframe" style="display:none;"></iframe>
+						`
+					);
+					$(".resSubmit").submit(function(e){
+						var $textArea = $(this).children('textarea'),
+						textArea = $textArea.val();
+						console.log($(this));
+						$(this).parents(".MenuPanel").children(".MenuContent").children(".resBox").html(
+							$(this).parents(".MenuPanel").children(".MenuContent").children(".resBox").html()
+							+
+							`
+							<div class="response">
+								<img src="./images/profile.png" />
+								<p>`+textArea+`</p>
+							</div>
+							`
+						);
+						
+						alert("Submitted!");
+					});
+				}
+				$(this).parents(".MenuPanel").children(".MenuContent").slideDown();
+				
+			}
+		});
+
+	});
+	
+}
+
+</script>
+</body>
+</html>

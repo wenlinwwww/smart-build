@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/course.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <title>Course</title>
+</head>
+<body>
+<box>
+    <nav>
+        <a href="./index.html" target="_self"><img id="logo" src="./images/SmartED.png" width="200px" height="46px"></a>
+        <select>
+            <option value ="DECO3801">DECO3801</option>
+            <option value ="COMP3301">COMP3301</option>
+            <option value="COMP3506">COMP3506</option>
+            <option value="DECO2800">DECO2800</option>
+        </select>
+        <ul>
+            <li><img src="./images/dashboard-icon.png"><a href="./Teacher-Dashboard.html" target="_self">Dashboard</a></li>
+            <li><img src="./images/course-icon.png"><a href="./Teacher-Course.html" target="_self"><span style="color:white;">Course</span></a></li>
+            <li><img src="./images/discussion-icon.png"><a href="./Teacher-Discussion.html" target="_self">Discussion</a></li>
+            <li><img src="./images/analytics-icon.png"><a href="./Teacher-Analytics.html" target="_self">Analytics</a></li>
+            <li><img src="./images/setting-icon.png"><a href="./Teacher-Setting.html" target="_self">Setting</a></li>
+        </ul>
+    </nav>
+
+    <div id="stat-bar">
+        <input id="searchbox" placeholder="Search for courses, help etc...">
+        <button id="sb" type="submit">Search</button>
+
+        <a href="./Student_profile.html">Hi, Smart Build!<img src="./images/profile.png" width="40px" height="40px"></a>
+    </div>
+
+<!--      Content       -->
+    <div id="content">
+        <!--<a href="./Course3801-Learning Resource.html" target="_self"><img id="logo" src="./images/temp-course-1.png" height="400px"></a> -->
+        
+		<div class="stuffBox">
+			<h3 >Teaching stuff</h3>
+			<div class="colLeft infoBox">
+				<div class="data">
+					<img src="./images/icon-recording.png">
+					<p><b>Recordings</b>
+					<br><span style="color:#88888a;">- this folder contains video recording of each week.</span></p>
+				</div>
+				<div class="data">
+					<img src="./images/icon-material.png">
+					<p><b>Learning Material</b>
+					<br><span style="color:#88888a;">- this folder contains material for each course.</span></p>
+				</div>
+				<div class="data">
+					<img src="./images/icon-soft.png">
+					<p><b>Tools</b>
+					<br><span style="color:#88888a;">- this folder contains tools which required to download for each course.</span></p>
+				</div>
+			</div>
+			
+			<div class="colRight infoBox">
+				<div class="data">
+					<img src="./images/icon-assessment.png">
+					<p><b>Assessment to be reviewed</b>
+					<br><span style="color:#88888a;">- this folder contains items that needs to be reviewed or uploaded.</span></p>
+				</div>
+				<div class="data">
+					<img src="./images/icon-announce.png">
+					<p><b>Announcement to be made</b>
+					<br><span style="color:#88888a;">- this folder contains items to be announced.</span></p>
+				</div>
+				<div class="data">
+					<img src="./images/icon-enroll.png">
+					<p><b>Students Enrolled</b>
+					<br><span style="color:#88888a;">this folder contains the details of student enrolled in each course.</span></p>
+				</div>
+			</div>
+		</div>
+		
+    </div>
+<!--    End Content     -->
+	<div class="full-container infoBox">
+		<span id="full-close">&times;</span>
+		<div id="full-content"></div>
+	</div>
+</box>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Bootstrap JS -->
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+<script>
+$(document).ready(function(){
+    $(".data").children("p").children("b").click(function(){
+		console.log($(this).html());
+		
+		$("#full-content").html(
+			
+			`<p>
+			
+			<b>`+$(this).html()+`</b>
+			<br><br><i><span style="color:#88888a;">None of content here.</span><i>
+			</p>`
+			
+		);
+		$(".full-container").css('display', 'block');
+	});
+	$("#full-close").click(function(){
+        $(".full-container").css('display', 'none');
+    });
+	
+});
+
+</script>
+
+</body>
+</html>

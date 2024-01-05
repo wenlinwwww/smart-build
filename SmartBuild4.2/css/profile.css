@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Alata', sans-serif;
+    
+}
+.right{
+
+    float: right;
+    
+}
+.left{
+    width: 500px;
+
+    float: left;
+}
+.wrapper{
+    margin: 20px;
+    padding: 10px;
+}
+body{
+    position: absolute;
+    background: lightslategray;
+    word-spacing: 10px;
+}
+h1{
+    font-size: 50px;
+}
+.info{
+    margin: 20px;
+    padding: 10px;
+}
+.back{
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+}
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  

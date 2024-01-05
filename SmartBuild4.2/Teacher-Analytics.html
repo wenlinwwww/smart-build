@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/t-analytics.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <title>Course3801-SmartED Analytics</title>
+</head>
+<body>
+<box>
+    <nav>
+        <a href="./index.html" target="_self"><img id="logo" src="./images/SmartED.png" width="200px" height="46px"></a>
+        <select>
+            <option value ="DECO3801">DECO3801</option>
+            <option value ="COMP3301">COMP3301</option>
+            <option value="COMP3506">COMP3506</option>
+            <option value="DECO2800">DECO2800</option>
+        </select>
+        <ul>
+            <li><img src="./images/dashboard-icon.png"><a href="./Teacher-Dashboard.html" target="_self">Dashboard</a></li>
+            <li><img src="./images/course-icon.png"><a href="./Teacher-Course.html" target="_self">Course</a></li>
+            <li><img src="./images/discussion-icon.png"><a href="./Teacher-Discussion.html" target="_self">Discussion</a></li>
+            <li><img src="./images/analytics-icon.png"><a href="./Teacher-Analytics.html" target="_self"><span style="color:white;">Analytics</span></a></li>
+            <li><img src="./images/setting-icon.png"><a href="./Teacher-Setting.html" target="_self">Setting</a></li>
+        </ul>
+    </nav>
+
+    <div id="stat-bar">
+        <input id="searchbox" placeholder="Search for courses, help etc...">
+        <button id="sb" type="submit">Search</button>
+
+        <a href="./Student_profile.html">Hi, Smart Build!<img src="./images/profile.png" width="40px" height="40px"></a>
+    </div>
+
+    
+
+<!--      Content       -->
+<div id="content">
+    <div class="left infoBox">
+	<b><h3>Assessment State</h3><b>
+	<br>
+	<select>
+            <option value ="Quiz-1">Quiz 1</option>
+            <option value ="Assignment-1">Assignment 1</option>
+            <option value="Quiz-2">Quiz 2</option>
+            <option value="Final-exam">Final exam</option>
+    </select>
+	<table>
+		<tr>
+			<th width="150px">Student</th>
+			<th width="100px">State</th>
+			<th width="150px">Time used</th>
+			<th width="80px">Grades</th>
+		</tr>
+		<tr>
+			<td>Oliver Albe</td>
+			<td>Failed</td>
+			<td>None</td>
+			<td><span class="fail">- / 100</span></td>
+		</tr>
+		<tr>
+			<td>Hunter Brown</td>
+			<td>Almost fail</td>
+			<td>5 mins</td>
+			<td><span class="danger">53 / 100</span></td>
+		</tr>
+		<tr>
+			<td>Duncan Carroll</td>
+			<td>Failed</td>
+			<td>None</td>
+			<td><span class="fail">- / 100</span></td>
+		</tr>
+		<tr>
+			<td>Chris Casper</td>
+			<td>Good</td>
+			<td>5 mins</td>
+			<td>92 / 100</td>
+		</tr>
+		<tr>
+			<td>Emily Churchill</td>
+			<td>Good</td>
+			<td>9 mins</td>
+			<td>85 / 100</td>
+		</tr>
+		<tr>
+			<td>Ashby Cooper</td>
+			<td>Good</td>
+			<td>38 mins</td>
+			<td>90 / 100</td>
+		</tr>
+		<tr>
+			<td>Meshi Qi</td>
+			<td>Failed</td>
+			<td>20 mins</td>
+			<td><span class="fail">28 / 100</span></td>
+		</tr>
+		<tr>
+			<td>Wulin Li</td>
+			<td>Pass</td>
+			<td>15 mins</td>
+			<td>64 / 100</td>
+		</tr>
+		<tr>
+			<td>Edward Ruhar</td>
+			<td>Almost fail</td>
+			<td>10 mins</td>
+			<td><span class="danger">50 / 100</span></td>
+		</tr>
+	</table>
+	</div>
+	
+	
+		<div class="right infoBox">
+			<h5><b>Key Insight Report</b></h5>
+			<br><li><span style="color:purple"> All the students </span>have attended<span style="color:purple"> all the tutorials </span></li>
+			<br><li>There are<span style="color:purple"> 5 students </span>whoes waiting to be marked.</li>
+			<br><div class="see-full" style="float:right;"><p><a href="#"><span style="color:purple">See full report</span></a></p></div>
+        </div>
+        
+        <div class="right infoBox">
+			<h5><b>Actionable Insights</b></h5>
+			<li>The <span style="color:purple">week 7 report</span> is ready to be viewed</li>
+			<li><a href="#"><span style="color:purple">See the state of students</span></a></li>
+			<li>The next assessment is <span style="color:purple">Interim Critique</span> due at <span style="color:purple">10am Friday 22/5/20</span></li> 
+			<li><a href="#"><span style="color:purple">See all Submits</span></a></li>
+            <br><p><a href="Teacher-Discussion.html"><span style="color:purple">There is 1 new message from a Student</span></a></p>
+            <div class="see-full" style="float:right;"><a href="#"><span style="color:purple">See full report</span></a></div>
+        
+		</div>
+		
+        <div class="right infoBox"><h5><b>Suggestions</b></h5>
+			<br>Looks some students are gonna fail this course due to the low performance. Keep in touch with them click<a href="./Teacher-Discussion.html"><span style="color:blue"> here</span></a>
+		</div> 
+	
+
+</div>
+<!--    End Content     -->
+
+
+</box>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Bootstrap JS -->
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

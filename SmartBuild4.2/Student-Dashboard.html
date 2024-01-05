@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <title>Dashboard</title>
+</head>
+<body>
+<box>
+    <nav>
+        <a href="./index.html" target="_self"><img id="logo" src="./images/SmartED.png" width="200px" height="46px"></a>
+        <select>
+            <option value ="DECO3801">DECO3801</option>
+            <option value ="COMP3301">COMP3301</option>
+            <option value="COMP3506">COMP3506</option>
+            <option value="DECO2800">DECO2800</option>
+        </select>
+        <ul>
+            <li><img src="./images/dashboard-icon.png"><a href="./Student-Dashboard.html" target="_self"><span style="color:white;">Dashboard</span></a></li>
+            <li><img src="./images/course-icon.png"><a href="./Student-Course.html" target="_self">Course</a></li>
+            <li><img src="./images/discussion-icon.png"><a href="./Student-Discussion.html" target="_self">Discussion</a></li>
+            <li><img src="./images/analytics-icon.png"><a href="./Student-Analytics.html" target="_self">Analytics</a></li>
+            <li><img src="./images/setting-icon.png"><a href="./Student-Setting.html" target="_self">Setting</a></li>
+        </ul>
+    </nav>
+
+    <div id="stat-bar">
+        <input id="searchbox" placeholder="Search for courses, help etc...">
+        <button id="sb" type="submit">Search</button>
+
+        <a href="./Student_profile.html">Hi, Andy!<img src="./images/profile.png" width="40px" height="40px"></a>
+    </div>
+
+<!--      Content       -->
+    <div id="content">
+        <!--<img src="./images/temp-dash.png">-->
+        <div class="tip infoBox">
+            <h2>Welcome Back!</h2>
+            <p>
+                You have <b>4 assignment</b> released, <b>1 course</b> today
+                <br>You're on a <b>10 days</b> learning streak!
+                <br>Keep it up and improve your result.
+            </p>
+            <img src="./images/learning-1.png" height="145px">
+        </div>
+
+        <div class="dash left">
+            <h3>Assessment</h3>
+
+                    <a href="#" onclick="popUpWindow('assignment');">
+                        <div class="boxAssi subShadow infoBox">
+                            <img src="./images/dash-1.png" width="250px">
+                        </div>
+                    </a>
+
+        </div>
+        <div class="dash middle">
+            <h3>Timetable</h3>
+
+                    <a>
+                        <div class="boxSche subShadow infoBox">
+                            <img src="./images/dash-2-1.png" height="80px">
+                        </div>
+                    </a>
+                    <a>
+                        <div class="boxSche1 boxSche subShadow infoBox">
+                            <img src="./images/dash-2-2.png" height="80px">
+                        </div>
+                    </a>
+
+        </div>
+        <div class="dash right">
+            <h3>Announcement</h3>
+
+                    <a href="#" onclick="popUpWindow('announce', 3800);">
+                        <div class="boxAnnounce subShadow infoBox">
+                            <img src="./images/dash-3-1.png" height="65px">
+                        </div>
+                    </a>
+                    <a href="#" onclick="popUpWindow('announce', 1800);">
+                        <div class="boxAnnounce subShadow infoBox">
+                            <img src="./images/dash-3-2.png" height="50px">
+                        </div>
+                    </a>
+                    <a href="#" onclick="popUpWindow('announce', 2800);">
+                        <div class="boxAnnounce subShadow infoBox">
+                            <img src="./images/dash-3-3.png" height="50px">
+                        </div>
+                    </a>
+
+        </div>
+		
+
+    </div>
+<!--    End Content     -->
+	<div class="full-container infoBox">
+		<span id="full-close">&times;</span>
+		<div id="full-content"></div>
+	</div>
+</box>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Bootstrap JS -->
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
